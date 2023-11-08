@@ -23,7 +23,7 @@ public class Document {
     public void remplacer(int start, int end, String remplacement) {
         String leftPart = texte.substring(0, start);
         String rightPart = texte.substring(end);
-        texte = leftPart + remplacement + rightPart;
+        this.texte = leftPart + remplacement + rightPart;
     }
 
     @Override
