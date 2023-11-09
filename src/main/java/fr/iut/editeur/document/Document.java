@@ -26,8 +26,8 @@ public class Document {
         this.texte = leftPart + remplacement + rightPart;
     }
 
-    public void majuscules(int start, int end) {
-        String leftPart = this.texte.substring(0,start).toUpperCase();
+    public void majuscule(int start, int end) {
+        String leftPart = this.texte.substring(start,end).toUpperCase();
         remplacer(start, end, leftPart);
     }
 

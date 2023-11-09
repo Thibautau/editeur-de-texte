@@ -15,7 +15,7 @@ public class CommandeMajuscule extends CommandeDocument{
             return;
         }
 
-        this.document.majuscules(Integer.parseInt(parameters[1]), Integer.parseInt(parameters[2]));
+        this.document.majuscule(Integer.parseInt(parameters[1]), Integer.parseInt(parameters[2]));
         super.executer();
     }
 }
