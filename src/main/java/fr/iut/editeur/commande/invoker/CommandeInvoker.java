@@ -8,6 +8,10 @@ public class CommandeInvoker {
 
     private static CommandeInvoker instance;
 
+    /**
+     * @return une nouvelle instance de COmmandeInvoker si elle n'existe pas déjà
+     *
+     */
     public static synchronized CommandeInvoker getInstance() {
         if(instance == null) {
             instance = new CommandeInvoker();
